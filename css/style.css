@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
 
 
+
 *{
     padding: 0;
     margin: 0;
@@ -9,6 +10,8 @@
 }
 
 body{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
     width: 99%;
     height: 99vh;
     display: flex;
@@ -26,7 +29,7 @@ main{
 }
 
 .pokedex{
-    width: 100%;
+    width: 90%;
     max-width: 425px;
 }
 
