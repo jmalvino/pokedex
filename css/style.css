@@ -11,6 +11,7 @@
 
 body{
     background-image: url(../img/bg.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     width: 99%;
     height: 99vh;
@@ -45,9 +46,9 @@ main{
     position:absolute;
     font-weight: 600;
     color: #aaa;
-    top: 54.5%;
+    top: 55.5%;
     right: 27%;
-    font-size: clamp(8px, 5vw, 25px);
+    font-size: clamp(6px, 4vw, 19px);
 }
 
 .pokemon__name{
